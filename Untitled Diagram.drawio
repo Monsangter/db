@@ -1,0 +1,109 @@
+<mxfile host="app.diagrams.net" modified="2023-03-27T07:27:51.230Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="0boRFv_rrJa9Z4irSdEr" version="21.1.1" type="github">
+  <diagram name="Page-1" id="cH5VUKS3W0jNmMDxjwPN">
+    <mxGraphModel dx="621" dy="778" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="KZ3tzI504oNNtsIOOo6G-2" value="고객" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="120" y="410" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KZ3tzI504oNNtsIOOo6G-3" value="bills" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="570" y="410" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KZ3tzI504oNNtsIOOo6G-4" value="transaction&lt;br&gt;detail" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="570" y="570" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KZ3tzI504oNNtsIOOo6G-5" value="manage" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="410" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KZ3tzI504oNNtsIOOo6G-8" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=none;rounded=0;startArrow=ERmandOne;startFill=0;endFill=0;" edge="1" parent="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="200" y="449.5" as="sourcePoint" />
+            <mxPoint x="360" y="449.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KZ3tzI504oNNtsIOOo6G-9" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERzeroToMany;startArrow=none;rounded=0;startFill=0;" edge="1" parent="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="440" y="449.5" as="sourcePoint" />
+            <mxPoint x="570" y="449.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KZ3tzI504oNNtsIOOo6G-15" value="전화번호" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="120" y="260" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KZ3tzI504oNNtsIOOo6G-16" value="이름" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="20" y="260" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KZ3tzI504oNNtsIOOo6G-17" value="이메일" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="20" y="360" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KZ3tzI504oNNtsIOOo6G-20" value="주소" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="210" y="260" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KZ3tzI504oNNtsIOOo6G-21" value="has" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="116" y="560" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KZ3tzI504oNNtsIOOo6G-22" value="" style="endArrow=none;html=1;rounded=0;startArrow=ERmandOne;startFill=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="155" y="490" as="sourcePoint" />
+            <mxPoint x="155" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KZ3tzI504oNNtsIOOo6G-23" value="회원정보" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="116" y="710" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KZ3tzI504oNNtsIOOo6G-24" value="" style="endArrow=ERmandOne;html=1;rounded=0;startArrow=none;startFill=0;endFill=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="155.29" y="640" as="sourcePoint" />
+            <mxPoint x="155.29" y="710" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KZ3tzI504oNNtsIOOo6G-25" value="id" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="20" y="720" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KZ3tzI504oNNtsIOOo6G-26" value="password" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="20" y="820" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KZ3tzI504oNNtsIOOo6G-27" value="nickname" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="120" y="820" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KZ3tzI504oNNtsIOOo6G-28" value="authorization" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="220" y="820" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KZ3tzI504oNNtsIOOo6G-29" value="고객명" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="570" y="280" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KZ3tzI504oNNtsIOOo6G-30" value="상태" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="660" y="280" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KZ3tzI504oNNtsIOOo6G-31" value="가격" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="670" y="370" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KZ3tzI504oNNtsIOOo6G-32" value="주문 번호" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="480" y="280" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KZ3tzI504oNNtsIOOo6G-33" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERzeroToMany;startArrow=none;rounded=0;startFill=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="KZ3tzI504oNNtsIOOo6G-4">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="420" y="470" as="sourcePoint" />
+            <mxPoint x="540" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KZ3tzI504oNNtsIOOo6G-34" value="transaction&lt;br&gt;id" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="670" y="540" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KZ3tzI504oNNtsIOOo6G-35" value="bill no" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="510" y="690" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KZ3tzI504oNNtsIOOo6G-36" value="paid amount" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="610" y="690" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KZ3tzI504oNNtsIOOo6G-37" value="pay method" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="700" y="690" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KZ3tzI504oNNtsIOOo6G-38" value="date of issue" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="570" y="780" width="80" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
